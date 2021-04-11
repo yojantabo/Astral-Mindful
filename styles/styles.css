@@ -1,0 +1,224 @@
+body {
+    font-family: 'Cormorant Garamond', serif;}
+
+.navbar{
+    background-color:#B39DDB;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);}
+
+.navbar-brand {
+    padding-right: 35%;
+    font-size: 1.50rem;
+    color: #1B1721;}
+
+.navbar-brand:hover{
+    color: #1b172175;}
+
+.nav-link{
+    color: #1B1721;}
+
+.nav-link:hover{
+    color: #14003156;}
+
+.navbar-toggler {font-size: 30px;}
+.navbar-toggler:focus {outline: none;}
+
+a:hover {text-decoration: none;}
+
+.content-center {
+    max-width: 900px;
+    margin: 40px auto 40px auto;
+    text-align: center;}
+
+h1 { font-size: 56px; font-weight: 500; line-height: 80px; color: white;}
+.us-title {margin-top: 30px; font-size: 40px;}
+h2 { font-size: 23px; font-weight: 500; margin-top: 20px; color: #393939; text-align: center;}
+h3 { font-size: 35px; margin-top: 30px; color: #393939;}
+h5 { font-size: 40px; font-weight: 500; margin-top: 90px; color: #393939;}
+
+.tit-val{text-align: center;
+    font-size: 22px;
+    text-decoration: none}
+
+.valor1{
+    color:#393939c9;}
+.valor2{
+    color:#393939c9;
+    margin-bottom: 50px;}
+
+.bx {
+    margin-left: 15px;
+}
+#backheader {
+    background-image: url(../img/backheader1.png);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: var(--white-color);
+}
+#backheader p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.8;}
+
+.btn {
+    padding: 15px 70px;
+    border-radius: 0px;
+    display: inline-block;}
+
+.btn-outline-primary {
+    color: rgba(255, 255, 255, 0.623);
+    border: 1px solid rgba(255, 255, 255, 0.623);}
+
+.btn-outline-primary:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);}
+
+.btn-outline-secondary{
+    color: #868686;
+    border: 1px solid rgba(134, 134, 134, 0.623);}
+
+.btn-outline-secondary:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: #000000d0;
+    border: 1px solid rgba(0, 0, 0, 0.479);}
+
+.initcursos-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.initcursos-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;}
+
+.initcursos-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);}
+
+.initcursos-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;}
+
+#us-info {
+    background-image: url(../img/backnos.png);
+    background-size: cover;
+    margin-top: 90px;
+    color: white;}
+
+ #us-info {
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 20px;}
+
+.us-info-text {
+    margin-right:30px ;
+    margin-left:30px ;}
+
+.cristales-p{
+    font-size: 20px;
+    color: #393939;
+    margin-bottom: 0rem;}
+
+footer{
+    margin-top: 40px;
+    padding: 60px 0;
+    text-align: center;
+    color: var(--white-color);
+    background-color:#B39DDB;}
+
+footer a {
+    color: var(--white-color);
+    text-decoration: none;}
+
+footer a:hover {
+    color: var(--white-color);}
+
+footer .list-inline .list-inline-item{
+    padding: 10px 15px;}
+
+.bgDark{
+    font-size: 20px;}
+
+.fw-bold{
+    font-size: 25px;}
+    
+#sesion {
+    background-image: url(../img/backsesion.png);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;}
+
+#cesta {
+    background-image: url(../img/backsesion.png);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 520px;}
+
+.cestainfo{
+    font-size: 20px;
+    color:#E5E6E7;}
+
+.md-1{font-size: 40px;}
+
+.bold{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color:#E5E6E7;}
+
+#producto1{
+    padding-top: 105px;}
+
+.proinfo{
+    font-size: 20px;
+    color: #393939;}
+
+.btn-dark{
+    color:#E5E6E7;
+    background-color: #393939;
+    font-size: 20px;
+    padding: 15px 40px;}
+
+.btn-dark:hover{
+    background-color: #393939e0;
+    color:#E5E6E7;
+    border: 1px solid #393939e0;}
+
+#admin1 {
+    background-image: url(../img/backheader.png);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 625px;}
+
+#admin2 {
+    background-image: url(../img/backheader.png);
+    background-size: cover;}
+
+.col-lg-6{
+    background-color: white;
+    border-radius: 10px;}
+
+.col-lg-12{
+    background-color: white;
+    border-radius: 10px;}
+
+.btn-secondary{
+    background-color: #393939;
+    border-color: #393939;
+    font-size: 15px;
+    border-radius: 5px;}
+
+.table {
+    font-size: 17px;}
+
+.table a{
+    color: #7b5db4;}

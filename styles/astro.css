@@ -1,0 +1,102 @@
+body {
+    font-family: 'Cormorant Garamond', serif;}
+
+.navbar{
+    background-color:#B39DDB;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);}
+
+.navbar-brand {
+    padding-right: 35%;
+    font-size: 1.50rem;
+    color: #1B1721;}
+
+.navbar-brand:hover{
+    color: #1b172175;}
+
+.nav-link{
+    color: #1B1721;}
+
+.nav-link:hover{
+    color: #14003156;}
+
+.navbar-toggler {font-size: 30px;}
+.navbar-toggler:focus {outline: none;}
+
+a:hover {text-decoration: none;}
+
+footer{
+    margin-top: 40px;
+    padding: 60px 0;
+    text-align: center;
+    color: var(--white-color);
+    background-color:#B39DDB;}
+
+footer a {
+    color: var(--white-color);
+    text-decoration: none;}
+
+footer a:hover {
+    color: var(--white-color);}
+
+footer .list-inline .list-inline-item{
+    padding: 10px 15px;}
+
+.bgDark{
+    font-size: 20px;}
+
+.fw-bold{
+    font-size: 25px;}
+
+h1 { font-size: 40px; line-height: 80px; color:#393939; padding-top: 90px;}
+h2 { font-size: 23px; font-weight: 500; margin-top: 20px; color: #393939; text-align: center;}
+
+.content-center {
+    max-width: 900px;
+    margin: 40px auto 40px auto;
+    text-align: center;}
+    
+.bx {
+    margin-left: 15px;}
+
+.txt {
+    font-size: 20px;
+    color:#393939;}
+
+.tit-val{text-align: center;
+    font-size: 22px;
+    text-decoration: none}
+
+.valor1{
+    color:#393939c9;
+    margin-bottom: 50px;}
+
+.valor2{
+     color:#393939c9;
+    margin-bottom: 50px;}
+
+
+.initcursos-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.initcursos-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;}
+
+.initcursos-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);}
+
+.initcursos-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;}
